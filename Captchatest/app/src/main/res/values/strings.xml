@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Captchatest</string>
+    <string name="mathAnsHint">Enter Math Captcha Answer here</string>
+    <string name="textAnsHint">Enter Text Captcha Answer here</string>
+    <string name="mathSubmitButton">Submit (math)</string>
+    <string name="textSubmitButton">Submit (text)</string>
+</resources>

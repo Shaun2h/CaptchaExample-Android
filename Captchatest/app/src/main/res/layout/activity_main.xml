@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation = "vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.captchatest.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mathimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id = "@+id/mathans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mathAnsHint"
+        />
+    <Button
+        android:id = "@+id/mathSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/mathSubmitButton"
+        />
+    <ImageView
+        android:id="@+id/textimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id = "@+id/textans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mathAnsHint"
+        />
+    <Button
+        android:id = "@+id/textSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/textSubmitButton"
+        />
+</LinearLayout>
